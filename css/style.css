@@ -2,14 +2,23 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    vertical-align: middle;
 
+}
+
+body {
+    font-family: Arial;
 }
 
 main {
     background-color: rgb(246, 248, 249);
+    font-weight: bold;
 }
 
+.header-mod {
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 30px;
+}
 
 .conteiner {
     width: 1000px;
@@ -17,21 +26,36 @@ main {
     background-color: white;
     padding: 2rem 5rem 1rem;
     border-radius: 6px;
+    
 }
+
 /* allinemaneto punlsanti superiori */
 .sect-align {
     padding: 0.5rem 1rem 1rem;
     border-bottom: 1px solid lightgray;
 }
 
+/* allineamento sezioni */
 .section-align {
     padding: 1.5rem 1rem 1rem;
 }
 
+/* allineamento righe  */
 .row-align {
+    display: block;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     display: inline-block;
+    font-weight: bold;
+}
+
+.bedge {
+    color: white;
+    vertical-align: middle;
+    font-size: 10px;
+    background-color: rgb(96, 170, 228);
+    padding: 6px;
+    border-radius: 15px;
 }
 
 /* badge superiori */
