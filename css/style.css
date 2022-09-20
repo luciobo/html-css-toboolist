@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+
+}
+
+main {
+    background-color: rgb(246, 248, 249);
+}
+
+
+.conteiner {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 2rem 5rem 1rem;
+    border-radius: 6px;
+}
+
+#badg-head {
+    background-color: rgb(97, 172, 235);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#badg-head2 {
+    border-radius: solid black;
+}
