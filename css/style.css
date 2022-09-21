@@ -9,9 +9,19 @@ body {
     font-family: Arial;
 }
 
+header {
+    padding: 0.5rem 0.5rem;
+}
+
 main {
     background-color: rgb(246, 248, 249);
     font-weight: bold;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.text-align {
+    vertical-align: center;
 }
 
 .header-mod {
@@ -21,7 +31,7 @@ main {
 }
 
 .conteiner {
-    width: 1200px;
+    width: 920px;
     margin: auto;
     background-color: white;
     padding: 2rem 5rem 1rem;
